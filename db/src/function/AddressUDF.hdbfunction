@@ -1,0 +1,8 @@
+FUNCTION AddressUDF( )
+       RETURNS ID DECIMAL
+       LANGUAGE SQLSCRIPT READS SQL DATA AS
+BEGIN 
+
+	ID = 1;
+       	
+END;
